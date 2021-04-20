@@ -1,0 +1,5 @@
+Flask == 1.1.2
+
+pip == 21.0.1
+
+psycopg2-binary == 2.8.6
