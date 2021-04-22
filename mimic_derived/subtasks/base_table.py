@@ -23,7 +23,14 @@ class BaseTable(BaseTask):
         "dopamine_dose",
         "dobutamine_dose",
         # Feature Data Tables
-
+        "pivoted_bg",
+        "pivoted_bg_art",
+        "pivoted_lab",
+        "pivoted_vital",
+        "pivoted_fio2",
+        "pivoted_gcs",
+        "pivoted_uo",
+        "pivoted_sofa"
     ]
     for tablename in tables_to_create:
       start_time = time.time()
